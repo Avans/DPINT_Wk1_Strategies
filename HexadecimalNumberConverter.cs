@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DPINT_Wk1_Strategies
+{
+    class HexadecimalNumberConverter : INumberConverter
+    {
+        public string ToLocalString(int fromNumber)
+        {
+            return Convert.ToString(fromNumber, 16);
+        }
+
+        public int ToNumerical(string fromString)
+        {
+            return Convert.ToInt32(fromString, 16);
+        }
+    }
+}
