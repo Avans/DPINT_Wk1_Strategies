@@ -71,6 +71,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BinaryNumberConverter.cs" />
+    <Compile Include="ConverterFactory.cs" />
+    <Compile Include="HexadecimalNumberConverter.cs" />
+    <Compile Include="INumberConverter.cs" />
+    <Compile Include="NumericalNumberConverter.cs" />
+    <Compile Include="OctalNumberConverter.cs" />
+    <Compile Include="RomanNumberConverter.cs" />
     <Compile Include="ValueConverterViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
